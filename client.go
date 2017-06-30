@@ -19,7 +19,7 @@ import (
 	"log"
 	"time"
 
-	elastigo "github.com/mattbaird/elastigo/lib"
+	elastigo "github.com/wxiaomei/elastigo/lib"
 )
 
 var (

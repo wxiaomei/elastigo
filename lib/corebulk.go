@@ -142,7 +142,7 @@ func (b *BulkIndexer) Start() {
 		b.startDocChannel()
 		b.startTimer()
 		ch := <-b.shutdownChan
-		time.Sleep(2 * time.Millisecond)
+		time.Sleep(50 * time.Millisecond)
 		b.Flush()
 		b.shutdown()
 		ch <- struct{}{}
